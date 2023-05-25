@@ -1,0 +1,44 @@
+{
+  "param":
+  {
+    "EDICConvert::encoder.conv1.weight":[8,12],
+    "EDICConvert::encoder.conv1.bias":[8,6],
+    "EDICConvert::encoder.conv2.weight":[8,10],
+    "EDICConvert::encoder.conv2.bias":[8,8],
+    "EDICConvert::encoder.conv3.weight":[8,9],
+    "EDICConvert::encoder.conv3.bias":[8,8],
+    "EDICConvert::encoder.conv4.weight":[8,9],
+    "EDICConvert::decoder.deconv1.weight":[8,9],
+    "EDICConvert::decoder.deconv1.bias":[8,10],
+    "EDICConvert::decoder.igdn1.weight":[8,9],
+    "EDICConvert::decoder.igdn1.bias":[8,10],
+    "EDICConvert::decoder.deconv2.weight":[8,9],
+    "EDICConvert::decoder.deconv2.bias":[8,9],
+    "EDICConvert::decoder.igdn2.weight":[8,10],
+    "EDICConvert::decoder.igdn2.bias":[8,10],
+    "EDICConvert::decoder.deconv3.weight":[8,10],
+    "EDICConvert::decoder.deconv3.bias":[8,10],
+    "EDICConvert::decoder.igdn3.weight":[8,10],
+    "EDICConvert::decoder.igdn3.bias":[8,9],
+    "EDICConvert::decoder.deconv4.weight":[8,9]
+  },
+  "output":
+  {
+    "EDICConvert::input_0":[8,-1],
+    "EDICConvert::EDICConvert/AnalysisNet[encoder]/Conv2d[conv1]/input.2":[8,5],
+    "EDICConvert::EDICConvert/AnalysisNet[encoder]/Conv2d[conv2]/input.4":[8,4],
+    "EDICConvert::EDICConvert/AnalysisNet[encoder]/Conv2d[conv3]/input.6":[8,4],
+    "EDICConvert::EDICConvert/AnalysisNet[encoder]/Conv2d[conv4]/145":[8,2],
+    "EDICConvert::EDICConvert/SynthesisNet[decoder]/ConvTranspose2d[deconv1]/input.8":[8,4],
+    "EDICConvert::EDICConvert/SynthesisNet[decoder]/Conv2d[igdn1]/165":[8,4],
+    "EDICConvert::EDICConvert/SynthesisNet[decoder]/ConvTranspose2d[deconv2]/input.9":[8,4],
+    "EDICConvert::EDICConvert/SynthesisNet[decoder]/Conv2d[igdn2]/185":[8,3],
+    "EDICConvert::EDICConvert/SynthesisNet[decoder]/ConvTranspose2d[deconv3]/input":[8,3],
+    "EDICConvert::EDICConvert/SynthesisNet[decoder]/Conv2d[igdn3]/205":[8,2],
+    "EDICConvert::EDICConvert/SynthesisNet[decoder]/ConvTranspose2d[deconv4]/216":[8,-1]
+  },
+  "input":
+  {
+
+  }
+}

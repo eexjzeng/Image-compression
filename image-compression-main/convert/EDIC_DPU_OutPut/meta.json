@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "EDICConvert.xmodel",
+    "kernel": [
+        "subgraph_EDICConvert__EDICConvert_AnalysisNet_encoder__Conv2d_conv1__input_2"
+    ],
+    "target": "DPUCVDX8G_ISA0_B1600_01000020F2014404"
+}
